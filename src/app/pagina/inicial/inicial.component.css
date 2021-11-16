@@ -1,0 +1,38 @@
+.card-img-top {
+    border-radius: 5px;
+}
+
+
+/**/
+
+.main {
+    text-align: center;
+    color: whitesmoke;
+    padding: 3%;
+    background-image: linear-gradient( to bottom right, #4affde 0%, #5b9dff 40%, #d06bff 60%, #ff34d2 100%);
+    background-size: 200% 200%;
+    animation: movingGradient 5s linear infinite alternate;
+}
+
+@keyframes movingGradient {
+    From {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+
+/**/
+
+#foto-ofertas {
+    position: relative;
+    top: 0;
+    transition: all .1s ease-in-out;
+}
+
+#foto-ofertas:hover {
+    top: -4px;
+    box-shadow: 0 17px 15px
+}

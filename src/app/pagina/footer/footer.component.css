@@ -1,0 +1,17 @@
+.footer {
+    background-color: darkblue;
+    color: whitesmoke;
+    padding: 7px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.icones-footer {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}

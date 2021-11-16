@@ -1,0 +1,59 @@
+.nav-item {
+    margin: 5px 15px 5px 15px;
+    font-size: 16px;
+}
+
+
+/* */
+
+.foto-flip {
+    margin-left: 350px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+#offcanvasTop {
+    margin-top: 50px;
+    border-width: 55vh;
+}
+
+.texto-do-flip {
+    text-align: center;
+    cursor: pointer;
+    background: linear-gradient( to bottom right, #4affde 30%, #ff34d2 40%, #d06bff 60%, #5b9dff 100%);
+    background-size: 200% 200%;
+    animation: movingGradient 2s linear infinite alternate;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+@keyframes movingGradient {
+    From {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+
+/**/
+
+.container-fluid {
+    padding: 1%;
+    background-image: linear-gradient( to bottom right, #4affde 0%, #5b9dff 40%, #d06bff 60%, #ff34d2 100%);
+    background-size: 200% 200%;
+    animation: movingGradient 5s linear infinite alternate;
+}
+
+@keyframes movingGradient {
+    From {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
