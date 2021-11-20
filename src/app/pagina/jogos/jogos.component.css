@@ -1,0 +1,26 @@
+#foto-ofertas {
+    position: relative;
+    top: 0;
+    transition: all .1s ease-in-out;
+}
+
+#foto-ofertas:hover {
+    top: -4px;
+    box-shadow: 0 17px 15px;
+    border-radius: 5px;
+}
+
+.texto-nome-video-game {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 30px;
+}
+
+#galeria-final {
+    margin-bottom: 10%;
+}
+
+.col {
+    margin: 2% auto;
+}

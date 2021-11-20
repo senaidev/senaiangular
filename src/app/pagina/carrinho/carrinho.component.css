@@ -1,0 +1,55 @@
+.container {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.form-group {
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.pagamento-200 {
+    text-decoration: line-through;
+}
+
+.pagamento-150 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #5da024;
+    display: block;
+}
+
+strong {
+    color: #5da024;
+    font-weight: normal;
+}
+
+.strong-especificaçoes {
+    color: rgb(115, 117, 136);
+    font-size: 14px;
+}
+
+.foto-ofertas {
+    position: relative;
+    top: 0;
+    transition: all .1s ease-in-out;
+    margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 7%;
+    border-radius: 5px;
+}
+
+.foto-ofertas:hover {
+    top: -4px;
+    box-shadow: 0 17px 15px;
+    border-radius: 5px;
+}
+
+.forma-de-pagamento {
+    margin-left: 5%;
+}
+
+button {
+    margin-left: 10%;
+    margin-top: 22%;
+}
